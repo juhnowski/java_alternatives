@@ -1,4 +1,4 @@
-JAVADIR=/usr/lib/jvm/java-17-openjdk-amd64
+JAVADIR=/usr/lib/jvm/jdk-21
 PRIORITY=1081
 BINDIR=/usr/bin
 find "$JAVADIR" -perm 755 -type f | while read FP
